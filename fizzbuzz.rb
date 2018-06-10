@@ -5,7 +5,7 @@ def fizzbuzz(num)
     "Fizz"
   elsif val2 == true
     "Buzz"
-  elsif val1 == true && val2 == true
+  else val1 == true && val2 == true
     "FizzBuzz"
   end
 end
